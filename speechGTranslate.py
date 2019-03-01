@@ -20,7 +20,7 @@ with sr.Microphone() as source:
 # Using a hardtype 
 try:
 	texta = r.recognize_google(audio, language = "kn-IN")
-	print("Text-in-Tamil : " + texta)
+	print("Text-in-Kannada : " + texta)
 except:
 	pass
 
