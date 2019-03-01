@@ -1,6 +1,6 @@
 # This is a program to recognise speech 
 # from the microphone and translate it into another language
-# Here the source is kannada ( spoken audio through microphone)
+# Here the source is kannada (spoken audio through microphone)
 # and then translating to english
 
 
