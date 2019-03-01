@@ -19,8 +19,8 @@ with sr.Microphone() as source:
 
 # Using a hardtype 
 try:
-	texta = r.recognize_google(audio, language = "kn-IN")
-	print("Text-in-Kannada : " + texta)
+	textFromAudio = r.recognize_google(audio, language = "kn-IN")
+	print("Text-in-Kannada : " + textFromAudio)
 except:
 	pass
 
@@ -28,7 +28,7 @@ except:
 translator = Translator()
 
 try:
-	transtext = translator.translate(texta, dest='en').text
-	print("Translated text: ", transtext)
+	translatedText = translator.translate(textFromAudio, dest='en').text
+	print("Translated text: ", translatedText)
 except:
 	pass
